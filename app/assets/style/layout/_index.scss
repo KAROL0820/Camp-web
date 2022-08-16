@@ -1,5 +1,73 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.home-back{
+  background-image:url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/bg_home_mobile.jpg);
+  height:336px;
+  object-fit: cover;
+  
 }
+@media (min-width:768px){
+  .home-back{
+      background-image:url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/bg_home.jpg);
+      height:680px;
+  }
+}
+
+
+.white-square{
+  background-color: $white;
+  height: 10px;
+  width: 10px;
+}
+.green-line{
+  width: 50px;
+  height: 3px;
+  background-color: $secondary;
+}
+
+@media (min-width:576px){
+
+}
+.fs-24-28{
+  font-size: 24px;
+}
+.fs-24-48{
+  font-size: 24px;
+}
+.fs-22-28{
+  font-size: 22px;
+}
+.fs-16-18{
+  font-size: 16px;
+}
+
+@media (min-width:768px){
+  
+
+  .fs-24-28{
+    font-size: 26px;
+  }
+  .fs-24-48{
+    font-size: 48px;
+  }
+  .fs-22-28{
+    font-size: 28px;
+  }
+  .fs-16-18{
+    font-size: 18px;
+  }
+}
+@media (min-width:992px){
+
+  .fs-24-28{
+    font-size: 28px;
+  }
+  
+}
+@media (min-width:1200px){
+  
+}
+@media (min-width:1400px){
+  
+}
+
+
+
