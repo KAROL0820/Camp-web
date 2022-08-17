@@ -69,7 +69,7 @@ $colors: (
 // scss-docs-start theme-color-variables
 $primary:       #2D2D2D; // $blue !default;
 $secondary:     #62DB54 !default;
-$success:       $green !default;
+$success:       #09ACF5!default;
 $info:          #909090!default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -82,7 +82,7 @@ $dark2:         #1C1C1C ;
 $theme-colors: (
   "primary":    #2D2D2D,//nav背景色
   "secondary":  #62DB54,
-  "success":    $success,
+  "success":    #09ACF5,
   "info":       #909090,
   "warning":    $warning,
   "danger":     $danger,
@@ -261,8 +261,10 @@ $spacers: (
   7: $spacer * 4,//64
   8: $spacer * 5,//80
   9: $spacer * 2.5,//40
-  10: $spacer * 1.75,//28
+  10:$spacer * 1.75,//28
   11:$spacer * 0.75,//12
+  12:$spacer * 3.5,//56
+  13:$spacer * 1.125,//18
 
 ) !default;
 
@@ -283,6 +285,7 @@ $position-values: (
   40:40%,
   45:45%,
   50: 50%,
+  60:60%,
   100: 100%
 ) !default;
 // scss-docs-end position-map

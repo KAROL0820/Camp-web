@@ -34,25 +34,14 @@ ol,ul{
 .mr-6{
     margin-right: 6px;
 }
-
-//
-.border-img{
-    border-bottom: 2px solid;
-    border-image: linear-gradient( to right, #62DB54,#09ACF5) 1;
-}
+//圖片基本設定
 .bg-cover{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
-.text-gradient{
-        background: linear-gradient(to top,#62DB54,#09ACF5);
-        background: -webkit-linear-gradient(to top, #62DB54,#09ACF5);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-     
+.object-fit-cover{
+    object-fit: cover;
 }
 //rounded
 .rounded-4{
@@ -61,12 +50,80 @@ ol,ul{
 .rounded-5{
     border-radius: 20px;
 }
+
 .material-symbols-rounded{
     font-size: 40px;
 }
-//
 .circle-pic{
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+//文字改變尺寸
+.fs-24-28{
+    font-size: 24px;
+  }
+  .fs-24-48{
+    font-size: 24px;
+  }
+  .fs-22-28{
+    font-size: 22px;
+  }
+  .fs-16-18{
+    font-size: 16px;
+  }
+  .bg-dark-gray{
+    background-color: $dark;
+  }
+@media (min-width:576px){
+
+.fs-24-28{
+  font-size: 24px;
+}
+.fs-24-48{
+  font-size: 24px;
+}
+.fs-22-28{
+  font-size: 22px;
+}
+.fs-16-18{
+  font-size: 16px;
+}
+.bg-dark-gray{
+  background-color: $dark;
+}}
+
+@media (min-width:768px){
+  
+
+  .fs-24-28{
+    font-size: 26px;
+  }
+  .fs-24-48{
+    font-size: 48px;
+  }
+  .fs-22-28{
+    font-size: 28px;
+  }
+  .fs-16-18{
+    font-size: 18px;
+  }
+}
+@media (min-width:992px){
+
+  .fs-24-28{
+    font-size: 28px;
+  }
+  .bg-dark-gray{
+    background-color: $primary;
+    border: none;
+  }
+  
+}
+@media (min-width:1200px){
+  
+}
+@media (min-width:1400px){
+
 }

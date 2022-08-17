@@ -1,7 +1,11 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "./base/mixin";
 @import "./helpers/utilities";
+
+
+
 @import "./base/base";
 
 @import "./helpers/_btn";

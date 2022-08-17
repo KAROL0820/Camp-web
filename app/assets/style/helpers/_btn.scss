@@ -1,7 +1,11 @@
 .nav-link{
-
     border-bottom: 1px solid transparent;
     &:hover{
       border-bottom: 1px solid $secondary;
     }
   }
+
+.border-hover:hover{
+  border: 1px solid $secondary;
+  transition: 0.5s;
+}
