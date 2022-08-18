@@ -9,3 +9,18 @@
   border: 1px solid $secondary;
   transition: 0.5s;
 }
+.color-hover:hover{
+  background-color: $secondary;
+  transition: 0.5s;
+  
+}
+.btn-white{
+  color:$white;
+  border-color: $white;
+  border-radius: 8px;
+  &:hover{
+    border-color: $secondary;
+    color: $secondary;
+    transform: 1s;
+  }
+}

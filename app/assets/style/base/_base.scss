@@ -17,6 +17,9 @@
 .fz40{
     font-size: 40px;
 }
+.fz-100{
+  font-size: 100px;
+}
 a{
     text-decoration: none;
 }
@@ -50,7 +53,9 @@ ol,ul{
 .rounded-5{
     border-radius: 20px;
 }
-
+.rounded-6{
+  border-radius: 24px;
+}
 .material-symbols-rounded{
     font-size: 40px;
 }
@@ -69,6 +74,9 @@ ol,ul{
   }
   .fs-22-28{
     font-size: 22px;
+  }
+  .fs-20-24{
+    font-size: 20px;
   }
   .fs-16-18{
     font-size: 16px;
@@ -109,6 +117,9 @@ ol,ul{
   .fs-16-18{
     font-size: 18px;
   }
+  .fs-20-24{
+    font-size: 24px;
+  }
 }
 @media (min-width:992px){
 
@@ -119,6 +130,7 @@ ol,ul{
     background-color: $primary;
     border: none;
   }
+  
   
 }
 @media (min-width:1200px){
