@@ -51,6 +51,15 @@
     transition: 0.5s;
   }
 }
+.btn-linear-b{
+  background-image: linear-gradient(to bottom,$success,$secondary);
+  color: $white;
+  border-radius: 8px;
+  &:hover{
+    color: $primary;
+    transition: 0.5s;
+  }
+}
 .border-linear{
   border-bottom: 2px solid;
   border-image: linear-gradient( to right, #62DB54,#09ACF5) 1;
@@ -69,7 +78,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 .whi-gre{
-  color: rgba(255, 255, 255, 0.454);
+  color: $white;
 }
 .white-line{
   width: 50px;
@@ -217,3 +226,18 @@
     }
   }
 }
+
+.green-list{
+        padding-left: 13px;
+        margin-bottom: 32px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            top:50%;
+            left:0;
+            background-color:$secondary;
+            margin-right: 16px;
+}}

@@ -72,7 +72,7 @@ $primary:       #2D2D2D; // $blue !default;
 $secondary:     #62DB54 !default;
 $success:       #09ACF5!default;
 $info:          #909090!default;
-$warning:       $yellow !default;
+$warning:       #C1C1C1 !default;
 $danger:        $red!default;
 $light:         #1C1C1C !default;
 $dark:          #202020 !default;
@@ -86,7 +86,7 @@ $theme-colors: (
   "secondary":  #62DB54,
   "success":    #09ACF5,
   "info":       #909090,
-  "warning":    $yellow,
+  "warning":    #C1C1C1,
   "danger":     $red,
   "light":      #1C1C1C,
   "dark":       #202020,
